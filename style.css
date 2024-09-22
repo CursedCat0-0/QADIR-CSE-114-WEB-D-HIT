@@ -1,0 +1,35 @@
+ h1{
+   text-align: center;
+   color: rgb(11, 245, 245);
+   text-shadow: 5px 5px 10px;
+ }
+ body {
+   background-image: url('bg_bulb.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   margin: 0;
+  } 
+.bulb img {
+   width: 700px;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+}
+
+  .bulb img:hover {
+   content: url('Bulb On.jpg');
+   box-shadow: 15px 15px 30px rgb(209, 209, 27), -15px -15px 30px rgb(209, 209, 27), 15px -15px 30px rgb(209, 209, 27), -15px 15px 30px rgb(209, 209, 27);
+  }
+  
+  .bulb h2 {
+   color: orange;
+   text-align: center;
+   text-shadow: 5px 5px 5px;
+   margin-top: 50px;
+  }
+
+   
